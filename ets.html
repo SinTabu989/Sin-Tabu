@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETS e ITS | Sin Tabú</title>
+  <meta name="description" content="Guía médica sobre Infecciones de Transmisión Sexual: prevención, síntomas, pruebas de detección y cuidado de la salud sin estigmas.">
+  <link rel="icon" href="img/imagenportada.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Barra de progreso -->
+  <div id="reading-progress"></div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-icon">✨</div>
+        <div class="brand-text">
+          <span class="brand-name">Sin Tabú</span>
+          <span class="brand-tagline">Educación y Salud Integral</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">🏠 Inicio</a></li>
+          <li class="nav-dropdown">
+            <a class="nav-link dropdown-toggle active">📚 Temas <span class="dropdown-arrow">▼</span></a>
+            <div class="dropdown-menu">
+              <a href="pubertad.html" class="dropdown-item"><span class="dropdown-item-icon">🌸</span> Pubertad</a>
+              <a href="metodos.html" class="dropdown-item"><span class="dropdown-item-icon">💊</span> Métodos Anticonceptivos</a>
+              <a href="ets.html" class="dropdown-item"><span class="dropdown-item-icon">🩺</span> ETS / ITS</a>
+              <a href="consentimiento.html" class="dropdown-item"><span class="dropdown-item-icon">🤝</span> Consentimiento</a>
+              <a href="relaciones.html" class="dropdown-item"><span class="dropdown-item-icon">💖</span> Relaciones Sanas</a>
+              <a href="autoestima.html" class="dropdown-item"><span class="dropdown-item-icon">🌟</span> Autoestima</a>
+              <a href="cuidado.html" class="dropdown-item"><span class="dropdown-item-icon">🧴</span> Cuidado Personal</a>
+            </div>
+          </li>
+          <li><a href="mitos.html" class="nav-link">❌ Mitos vs Verdades</a></li>
+          <li><a href="quiz.html" class="nav-link">🎯 Quiz</a></li>
+          <li><a href="#fuentes-section" class="nav-link">📖 Fuentes</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="quiz.html" class="btn btn-nav-quiz">⚡ Test Rápido</a>
+        <button class="mobile-toggle" aria-label="Abrir menú"><span>☰</span></button>
+      </div>
+    </div>
+
+    <!-- Menú Móvil -->
+    <div class="mobile-drawer">
+      <a href="index.html" class="nav-link">🏠 Inicio</a>
+      <a href="pubertad.html" class="nav-link">🌸 Pubertad</a>
+      <a href="metodos.html" class="nav-link">💊 Métodos Anticonceptivos</a>
+      <a href="ets.html" class="nav-link active">🩺 ETS e ITS</a>
+      <a href="consentimiento.html" class="nav-link">🤝 Consentimiento</a>
+      <a href="relaciones.html" class="nav-link">💖 Relaciones Sanas</a>
+      <a href="autoestima.html" class="nav-link">🌟 Autoestima</a>
+      <a href="cuidado.html" class="nav-link">🧴 Cuidado Personal</a>
+      <a href="mitos.html" class="nav-link">❌ Mitos vs Verdades</a>
+      <a href="quiz.html" class="btn btn-accent" style="margin-top:0.5rem;">🎯 Quiz Interactivo</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-pattern"></div>
+    <div class="hero-inner hero-single">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        Salud y Prevención Científica
+      </div>
+      <h1 class="hero-title">🩺 <span class="highlight">ETS e ITS</span></h1>
+      <p class="hero-description">
+        Las Infecciones de Transmisión Sexual (ITS) son comunes, prevenibles y tratables. Conoce cómo protegerte, detectar señales a tiempo y cuidar tu salud sin miedos ni tabúes.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <main class="main-container">
+
+    <div class="section-header">
+      <span class="section-tag">Información Médica</span>
+      <h2 class="section-title">¿Qué son las ITS y cómo cuidarnos?</h2>
+      <p class="section-subtitle">Son infecciones causadas por bacterias, virus o parásitos que se transmiten principalmente por contacto sexual sin protección.</p>
+    </div>
+
+    <!-- PESTAÑAS INTERACTIVAS -->
+    <div class="tabs-container">
+      <div class="tab-nav">
+        <button class="tab-btn active" data-tab="tab-prevencion">🛡️ Prevención y Protección</button>
+        <button class="tab-btn" data-tab="tab-sintomas">🔍 Síntomas y Detección</button>
+        <button class="tab-btn" data-tab="tab-vacunas">💉 Vacunas y Chequeos</button>
+      </div>
+
+      <!-- Tab 1: Prevención -->
+      <div id="tab-prevencion" class="tab-pane active">
+        <div class="content-cards-grid">
+          <div class="content-card">
+            <h3>🛡️ Preservativo en Todo Momento</h3>
+            <p>El uso consistente y correcto del condón (masculino o femenino) en cada relación es la barrera más efectiva contra la mayoría de ITS como clamidia, gonorrea y VIH.</p>
+          </div>
+          <div class="content-card">
+            <h3>💬 Comunicación con tu Pareja</h3>
+            <p>Poder hablar abierta y honestamente sobre salud sexual, acuerdos mutuos y chequeos previos genera confianza y reduce riesgos.</p>
+          </div>
+          <div class="content-card">
+            <h3>🚫 Desmitificar el Contagio Casual</h3>
+            <p>Las ITS <strong>NO</strong> se transmiten por abrazar, dar la mano, compartir vasos, cubiertos ni por usar el mismo inodoro.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 2: Síntomas -->
+      <div id="tab-sintomas" class="tab-pane">
+        <div class="content-cards-grid">
+          <div class="content-card">
+            <h3>⚠️ Señales de Alerta Comunes</h3>
+            <p>Flujo o secreciones inusuales, ardor al orinar, picazón intensa, ampollas, verrugas o dolor pélvico persistente.</p>
+          </div>
+          <div class="content-card">
+            <h3>🤫 La Importancia de las ITS Asintomáticas</h3>
+            <p>Muchas infecciones (como el VPH o la clamidia) pueden no manifestar síntomas externos. Por eso no se debe confiar únicamente en "cómo se ve" una persona.</p>
+          </div>
+          <div class="content-card">
+            <h3>🏥 Pruebas Médicas Regulares</h3>
+            <p>Realizarse chequeos periódicos de rutina o pruebas de tamizaje permite un diagnóstico rápido y un tratamiento oportuno y seguro.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 3: Vacunas -->
+      <div id="tab-vacunas" class="tab-pane">
+        <div class="content-cards-grid">
+          <div class="content-card">
+            <h3>💉 Vacuna contra el VPH</h3>
+            <p>Protege contra las cepas del Virus del Papiloma Humano causantes de la mayoría de casos de cáncer de cuello uterino y verrugas genitales. Es altamente recomendada en adolescentes.</p>
+          </div>
+          <div class="content-card">
+            <h3>💉 Vacuna contra Hepatitis B</h3>
+            <p>Previene una infección viral que afecta el hígado y que se transmite a través de fluidos corporales y relaciones sexuales.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CAJA DE INFORMACIÓN / CERO ESTIGMA -->
+    <div class="info-box">
+      <h3>💡 Salud sin Vergüenza ni Estigmas</h3>
+      <p>
+        Tener una ITS no define quién eres ni es motivo de vergüenza. Es simplemente un problema de salud que requiere atención médica profesional, al igual que una gripe o una infección de garganta. Si tienes dudas o síntomas, acude con tranquilidad a un centro de salud.
+      </p>
+    </div>
+
+    <!-- SECCIÓN DE FUENTES Y URLs OFICIALES VISIBLES -->
+    <section id="fuentes-section" class="sources-section">
+      <div class="sources-header">
+        <span style="font-size: 1.8rem;">📚</span>
+        <div>
+          <h3>Fuentes, URLs y Referencias Científicas</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">Información fundamentada por entidades oficiales de epidemiología y salud:</p>
+        </div>
+        <span class="sources-badge" style="margin-left: auto;">Aval CDC / OMS</span>
+      </div>
+
+      <div class="sources-grid">
+        <a href="https://www.cdc.gov/std/spanish/default.htm" target="_blank" rel="noopener noreferrer" class="source-card">
+          <span class="source-org">CDC en Español</span>
+          <div class="source-title">Infecciones de Transmisión Sexual: Guía de prevención y pruebas</div>
+          <span class="source-url">🔗 cdc.gov/std/spanish ↗</span>
+        </a>
+
+        <a href="https://www.who.int/es/news-room/fact-sheets/detail/sexually-transmitted-infections-(stis)" target="_blank" rel="noopener noreferrer" class="source-card">
+          <span class="source-org">Organización Mundial de la Salud (OMS)</span>
+          <div class="source-title">Datos mundiales y hojas informativas sobre ITS</div>
+          <span class="source-url">🔗 who.int/es/fact-sheets/stis ↗</span>
+        </a>
+
+        <a href="https://www.plannedparenthood.org/es/temas-de-salud/enfermedades-de-transmision-sexual-ets" target="_blank" rel="noopener noreferrer" class="source-card">
+          <span class="source-org">Planned Parenthood</span>
+          <div class="source-title">Diccionario de ETS: Síntomas, tratamientos y cómo protegerte</div>
+          <span class="source-url">🔗 plannedparenthood.org/es/ets ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- SIGUIENTE TEMA -->
+    <div class="topic-next-nav">
+      <div>
+        <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 700;">Continuar explorando:</span>
+        <h4 style="color: var(--primary); font-size: 1.2rem;">🤝 Consentimiento y Límites</h4>
+      </div>
+      <div style="display: flex; gap: 0.75rem;">
+        <a href="index.html" class="btn btn-outline">🏠 Inicio</a>
+        <a href="consentimiento.html" class="btn btn-primary">Siguiente Tema ➔</a>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h4>✨ Sin Tabú</h4>
+        <p>Educación sexual clara, segura y responsable para jóvenes y adolescentes.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Temas</h5>
+        <ul class="footer-links">
+          <li><a href="pubertad.html">Pubertad</a></li>
+          <li><a href="metodos.html">Métodos Anticonceptivos</a></li>
+          <li><a href="ets.html">ETS e ITS</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Valores</h5>
+        <ul class="footer-links">
+          <li><a href="consentimiento.html">Consentimiento</a></li>
+          <li><a href="relaciones.html">Relaciones Sanas</a></li>
+          <li><a href="autoestima.html">Autoestima</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Explora</h5>
+        <ul class="footer-links">
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="mitos.html">Mitos y Verdades</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Sin Tabú | Educación segura y responsable</p>
+    </div>
+  </footer>
+
+  <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Volver arriba">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>
