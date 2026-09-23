@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Interactivo | Sin Tabú</title>
+  <meta name="description" content="Pon a prueba tus conocimientos sobre salud sexual, pubertad, consentimiento y métodos anticonceptivos con nuestro quiz interactivo.">
+  <link rel="icon" href="img/imagenportada.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Barra de progreso -->
+  <div id="reading-progress"></div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">
+        <div class="brand-icon">✨</div>
+        <div class="brand-text">
+          <span class="brand-name">Sin Tabú</span>
+          <span class="brand-tagline">Educación y Salud Integral</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">🏠 Inicio</a></li>
+          <li class="nav-dropdown">
+            <a class="nav-link dropdown-toggle">📚 Temas <span class="dropdown-arrow">▼</span></a>
+            <div class="dropdown-menu">
+              <a href="pubertad.html" class="dropdown-item"><span class="dropdown-item-icon">🌸</span> Pubertad</a>
+              <a href="metodos.html" class="dropdown-item"><span class="dropdown-item-icon">💊</span> Métodos Anticonceptivos</a>
+              <a href="ets.html" class="dropdown-item"><span class="dropdown-item-icon">🩺</span> ETS / ITS</a>
+              <a href="consentimiento.html" class="dropdown-item"><span class="dropdown-item-icon">🤝</span> Consentimiento</a>
+              <a href="relaciones.html" class="dropdown-item"><span class="dropdown-item-icon">💖</span> Relaciones Sanas</a>
+              <a href="autoestima.html" class="dropdown-item"><span class="dropdown-item-icon">🌟</span> Autoestima</a>
+              <a href="cuidado.html" class="dropdown-item"><span class="dropdown-item-icon">🧴</span> Cuidado Personal</a>
+            </div>
+          </li>
+          <li><a href="mitos.html" class="nav-link">❌ Mitos vs Verdades</a></li>
+          <li><a href="quiz.html" class="nav-link active">🎯 Quiz</a></li>
+          <li><a href="#fuentes-section" class="nav-link">📖 Fuentes</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="quiz.html" class="btn btn-nav-quiz">⚡ Test Rápido</a>
+        <button class="mobile-toggle" aria-label="Abrir menú"><span>☰</span></button>
+      </div>
+    </div>
+
+    <!-- Menú Móvil -->
+    <div class="mobile-drawer">
+      <a href="index.html" class="nav-link">🏠 Inicio</a>
+      <a href="pubertad.html" class="nav-link">🌸 Pubertad</a>
+      <a href="metodos.html" class="nav-link">💊 Métodos Anticonceptivos</a>
+      <a href="ets.html" class="nav-link">🩺 ETS e ITS</a>
+      <a href="consentimiento.html" class="nav-link">🤝 Consentimiento</a>
+      <a href="relaciones.html" class="nav-link">💖 Relaciones Sanas</a>
+      <a href="autoestima.html" class="nav-link">🌟 Autoestima</a>
+      <a href="cuidado.html" class="nav-link">🧴 Cuidado Personal</a>
+      <a href="mitos.html" class="nav-link">❌ Mitos vs Verdades</a>
+      <a href="quiz.html" class="nav-link active">🎯 Quiz Interactivo</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-pattern"></div>
+    <div class="hero-inner hero-single">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        Autoevaluación Dinámica
+      </div>
+      <h1 class="hero-title">🎯 <span class="highlight">Quiz Interactivo</span></h1>
+      <p class="hero-description">
+        Pon a prueba tus conocimientos sobre salud sexual, autocuidado, relaciones y consentimiento. ¡Aprende con explicaciones claras en cada respuesta!
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <main class="main-container">
+
+    <div class="section-header">
+      <span class="section-tag">Desafío Sin Tabú</span>
+      <h2 class="section-title">¿Cuánto sabes sobre Educación y Salud?</h2>
+      <p class="section-subtitle">Selecciona la respuesta que consideres correcta.</p>
+    </div>
+
+    <!-- QUIZ WIDGET INTERACTIVO -->
+    <div class="quiz-wrapper interactive-quiz" data-quiz-data='[
+      {
+        "question": "¿El preservativo o condón es el único método que protege tanto de embarazos como de ITS?",
+        "options": [
+          {"text": "Sí, es el único método de barrera con doble protección", "correct": true},
+          {"text": "No, las pastillas anticonceptivas también protegen de ITS", "correct": false},
+          {"text": "No, ningún método protege de las ITS", "correct": false}
+        ],
+        "explanation": "El condón (masculino o femenino) es el único método anticonceptivo que además crea una barrera física contra las Infecciones de Transmisión Sexual (ITS)."
+      },
+      {
+        "question": "Si una persona dijo que sí al inicio pero luego cambia de opinión y quiere detenerse, ¿qué debe ocurrir?",
+        "options": [
+          {"text": "Ya no puede detenerse porque ya había aceptado", "correct": false},
+          {"text": "Debe respetarse de inmediato; el consentimiento es continuo y reversible", "correct": true},
+          {"text": "Debe convencerse a la persona para que continúe", "correct": false}
+        ],
+        "explanation": "El consentimiento debe ser voluntario, entusiasta y continuo. Cualquier persona tiene el derecho absoluto de cambiar de opinión en cualquier momento."
+      },
+      {
+        "question": "¿Es verdad que todas las personas viven la pubertad a la misma edad y de la misma forma?",
+        "options": [
+          {"text": "Sí, el cuerpo humano sigue un calendario exacto", "correct": false},
+          {"text": "No, cada cuerpo tiene su propio ritmo y tiempo de desarrollo", "correct": true},
+          {"text": "Solo los hombres cambian a la misma edad", "correct": false}
+        ],
+        "explanation": "Cada cuerpo es único y los cambios hormonales ocurren en momentos y ritmos diferentes para cada individuo. ¡La diversidad es 100% natural!"
+      },
+      {
+        "question": "¿Revisar el celular o exigir contraseñas a tu pareja es una muestra de amor?",
+        "options": [
+          {"text": "Sí, demuestra que hay mucho interés y cariño", "correct": false},
+          {"text": "No, es una señal de control, desconfianza e inseguridad (Red Flag)", "correct": true},
+          {"text": "Solo si se hace de vez en cuando", "correct": false}
+        ],
+        "explanation": "El respeto a la privacidad y la confianza mutua son pilares esenciales de cualquier vínculo afectivo saludable."
+      },
+      {
+        "question": "¿Muchas Infecciones de Transmisión Sexual (ITS) pueden no mostrar ningún síntoma visible?",
+        "options": [
+          {"text": "Verdadero, pueden ser asintomáticas durante meses o años", "correct": true},
+          {"text": "Falso, siempre causan dolor o fiebre evidente de inmediato", "correct": false}
+        ],
+        "explanation": "Infecciones como el VPH o la clamidia suelen ser asintomáticas. Por ello son esenciales las medidas de prevención y chequeos periódicos."
+      }
+    ]'>
+      <div class="quiz-header">
+        <h3 style="font-size: 1.1rem; color: var(--primary);">Preguntas del Quiz</h3>
+        <span class="quiz-progress-pill">Cargando...</span>
+      </div>
+      <div class="quiz-question">Cargando pregunta...</div>
+      <div class="quiz-options"></div>
+      <div class="quiz-feedback"></div>
+      <div style="text-align: right;">
+        <button class="btn btn-primary quiz-next-btn" style="display: none;">Siguiente Pregunta ➔</button>
+      </div>
+    </div>
+
+    <!-- CAJA DE INFORMACIÓN -->
+    <div class="info-box">
+      <h3>💡 ¿Quieres profundizar en algún tema?</h3>
+      <p>
+        Si fallaste alguna pregunta o quieres saber más sobre métodos de protección, cambios corporales, relaciones sanas o mitos frecuentes, visita nuestra sección de temas en el menú superior.
+      </p>
+    </div>
+
+    <!-- SECCIÓN DE FUENTES -->
+    <section id="fuentes-section" class="sources-section">
+      <div class="sources-header">
+        <span style="font-size: 1.8rem;">📚</span>
+        <div>
+          <h3>Fuentes y Respaldos Científicos del Quiz</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">Preguntas y respuestas elaboradas en base a guías internacionales:</p>
+        </div>
+        <span class="sources-badge" style="margin-left: auto;">Verificado</span>
+      </div>
+
+      <div class="sources-grid">
+        <a href="https://www.who.int/es/news-room/fact-sheets/detail/adolescent-sexual-and-reproductive-health" target="_blank" rel="noopener noreferrer" class="source-card">
+          <span class="source-org">OMS (Organización Mundial de la Salud)</span>
+          <div class="source-title">Salud y derechos sexuales y reproductivos en jóvenes</div>
+          <span class="source-url">🔗 who.int/es/adolescent-health ↗</span>
+        </a>
+
+        <a href="https://www.unesco.org/es/health-education/comprehensive-sexuality-education" target="_blank" rel="noopener noreferrer" class="source-card">
+          <span class="source-org">UNESCO</span>
+          <div class="source-title">Guía técnica internacional de educación integral de la sexualidad</div>
+          <span class="source-url">🔗 unesco.org/es/health-education ↗</span>
+        </a>
+
+        <a href="https://www.cdc.gov/std/spanish/default.htm" target="_blank" rel="noopener noreferrer" class="source-card">
+          <span class="source-org">CDC en Español</span>
+          <div class="source-title">Centros para el Control y la Prevención de Enfermedades</div>
+          <span class="source-url">🔗 cdc.gov/std/spanish ↗</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h4>✨ Sin Tabú</h4>
+        <p>Educación sexual clara, segura y responsable para jóvenes y adolescentes.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Temas</h5>
+        <ul class="footer-links">
+          <li><a href="pubertad.html">Pubertad</a></li>
+          <li><a href="metodos.html">Métodos Anticonceptivos</a></li>
+          <li><a href="ets.html">ETS e ITS</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Valores</h5>
+        <ul class="footer-links">
+          <li><a href="consentimiento.html">Consentimiento</a></li>
+          <li><a href="relaciones.html">Relaciones Sanas</a></li>
+          <li><a href="autoestima.html">Autoestima</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Explora</h5>
+        <ul class="footer-links">
+          <li><a href="quiz.html">Quiz Interactivo</a></li>
+          <li><a href="mitos.html">Mitos y Verdades</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Sin Tabú | Educación segura y responsable</p>
+    </div>
+  </footer>
+
+  <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Volver arriba">↑</button>
+  <script src="js/main.js"></script>
+</body>
+</html>
