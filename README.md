@@ -13,7 +13,7 @@ https://sintabu989.github.io/Sin-Tabu/
 ## Integrantes
 - Danna Isabella Mosquera Santa - Desarrolladora web
 - Santiago Gómez Sampedro - Coordinador y documentador
-- Nicol Cubides Jimenéz - Investigadora y redactora
+- Nicol Cubides Jimenéz - Líder investigadora y redactora
 - Ashleey Valeria Rodriguez Londoño - Diseñadora web
 ## Institución
 Media Técnica en Desarrollo de Software - Grado 11 - Año 2026
