@@ -16,4 +16,4 @@ https://sintabu989.github.io/Sin-Tabu/
 - Nicol Cubides Jimenéz - Líder investigadora y redactora
 - Ashleey Valeria Rodriguez Londoño - Diseñadora web
 ## Institución
-Media Técnica en Desarrollo de Software - Grado 11 - Año 2026
+Media Técnica en Programación de Software - Grado 11 - Año 2026
